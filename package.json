@@ -4,7 +4,7 @@
   "description": "PosgtreSQL (pg) promisified library for modern node and io.js (with built-in promises).",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node tests.js"
   },
   "repository": {
     "type": "git",
@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/fend25/node-pg-promise-simple/issues"
   },
-  "homepage": "https://github.com/fend25/node-pg-promise-simple#readme"
+  "homepage": "https://github.com/fend25/node-pg-promise-simple#readme",
+  "dependencies": {
+    "pg": "^4.3.0"
+  }
 }
