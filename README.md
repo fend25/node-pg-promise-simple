@@ -1,6 +1,11 @@
 # node-pg-promise-simple
 PosgtreSQL (pg) promisified library for modern node and io.js (with built-in promises).
 
+
+# DEPRECATED
+Please use [pg-promise](//www.npmjs.com/package/pg-promise) instead of this module.
+
+
 Connection: 
 ```js
 var pg = require('pg-promise-simple');
